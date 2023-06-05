@@ -1,24 +1,26 @@
 ﻿using System.Text;
 using RabbitMQ.Client;
 
+static string GetMessage(string[] args)
+{
+    return ((args.Length > 0) ? string.Join(" ", args) : "Hello World!");
+}
+
 var factory = new ConnectionFactory { HostName = "localhost" };
 using var connection = factory.CreateConnection();
 using var channel = connection.CreateModel();
 
-channel.QueueDeclare(queue: "hello",
-                     durable: false,
+channel.QueueDeclare(queue: "task_queue",
+                     durable: true,
                      exclusive: false,
                      autoDelete: false,
                      arguments: null);
 
-const string message = "Hello World 3";
+var message = GetMessage(args);
 var body = Encoding.UTF8.GetBytes(message);
 
-var properties = channel.CreateBasicProperties();
-properties.Persistent = true;
-
 channel.BasicPublish(exchange: string.Empty,
-                     routingKey: "hello",
+                     routingKey: "task_queue",
                      basicProperties: null,
                      body: body);
 Console.WriteLine($" [x] Sent {message}");
