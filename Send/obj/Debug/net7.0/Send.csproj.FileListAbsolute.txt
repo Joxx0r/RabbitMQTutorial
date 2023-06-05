@@ -1,0 +1,17 @@
+D:\Code\RabbitMQ\Send\bin\Debug\net7.0\Send.exe
+D:\Code\RabbitMQ\Send\bin\Debug\net7.0\Send.deps.json
+D:\Code\RabbitMQ\Send\bin\Debug\net7.0\Send.runtimeconfig.json
+D:\Code\RabbitMQ\Send\bin\Debug\net7.0\Send.dll
+D:\Code\RabbitMQ\Send\bin\Debug\net7.0\Send.pdb
+D:\Code\RabbitMQ\Send\bin\Debug\net7.0\RabbitMQ.Client.dll
+D:\Code\RabbitMQ\Send\obj\Debug\net7.0\Send.csproj.AssemblyReference.cache
+D:\Code\RabbitMQ\Send\obj\Debug\net7.0\Send.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\RabbitMQ\Send\obj\Debug\net7.0\Send.AssemblyInfoInputs.cache
+D:\Code\RabbitMQ\Send\obj\Debug\net7.0\Send.AssemblyInfo.cs
+D:\Code\RabbitMQ\Send\obj\Debug\net7.0\Send.csproj.CoreCompileInputs.cache
+D:\Code\RabbitMQ\Send\obj\Debug\net7.0\Send.csproj.CopyComplete
+D:\Code\RabbitMQ\Send\obj\Debug\net7.0\Send.dll
+D:\Code\RabbitMQ\Send\obj\Debug\net7.0\refint\Send.dll
+D:\Code\RabbitMQ\Send\obj\Debug\net7.0\Send.pdb
+D:\Code\RabbitMQ\Send\obj\Debug\net7.0\Send.genruntimeconfig.cache
+D:\Code\RabbitMQ\Send\obj\Debug\net7.0\ref\Send.dll
